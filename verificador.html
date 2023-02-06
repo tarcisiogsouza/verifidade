@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICADOR DE IDADE</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>   
+    <header>
+
+        <h1>VERIFICADOR DE IDADE</h1>
+
+    </header>
+    <section id="cxx">
+        <div id="dig">
+            <p>Digite o ano do seu nascimento: <input type="number"  name="ano" id="ano" min="0"> </p>
+            <p> Genero: 
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc" >Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem" >Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="CALCULAR" id="btt" onclick="calcular()">
+            </p>
+        </div>
+
+        <div id="res">
+            Preencha o campo acima para ver o resultado
+        </div>
+    </section>
+    <footer>
+        <p>&copy; TS-code </p>
+
+
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
